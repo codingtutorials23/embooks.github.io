@@ -4,10 +4,10 @@ input.addEventListener('keyup', function(e){
   wordCounter(e.target.value);
 });
 function wordCounter(text) {
-  var text = input.value.split(' ');
+  var text = input.value;
   var wordCount = 0;
-  for (var i = 0; i < text.length; i++) {
-    if (text[i] !== ' ') {
+  for (var i = 0; i <= text.length; i++) {
+    if (text.charAt(i) == ' ') {
       wordCount++;
     }
   }
