@@ -1,8 +1,8 @@
 var count = document.getElementById("count");
 var input = document.getElementById("input");
-input.onchange = function(e){
+input.addEventListener('keyup', function(e){
   wordCounter(e.target.value);
-}
+});
 function wordCounter(){
   var text = input.value;
   var wordCount = 0;
