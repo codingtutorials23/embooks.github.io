@@ -11,7 +11,7 @@ body {
   background-color:black;
   overflow-x: hidden;
   padding-top: 20px;
-  margin-right: 160px;
+  margin-left: 160px;
 }
 
 .nav a {
@@ -27,7 +27,7 @@ body {
 }
 
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-right: 1600px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
