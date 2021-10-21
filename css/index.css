@@ -39,7 +39,7 @@ body {
  links.blink{
   width: 100px;
   height: 100px;
-  color:lightblue;
+  color:white;
   animation-name: example;
   animation-duration: 4s;
 }
