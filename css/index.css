@@ -30,12 +30,12 @@ body {
   margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
+  background-color:#8a0303;
 }
  
 @media screen and (max-height: 450px) {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
 }
-body{
-  background-color:#8a0303;
-}
+
+ 
