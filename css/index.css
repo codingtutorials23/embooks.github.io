@@ -36,3 +36,6 @@ body {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
 }
+.links a:hover{
+  background-image: url("https://pngmind.com/wp-content/uploads/2019/08/Blood-Splatter-Png-Transparent-Background.png");
+}
