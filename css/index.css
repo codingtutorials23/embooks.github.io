@@ -37,31 +37,19 @@ body {
   .nav a {font-size: 18px;}
 }
 .blink{
-  animation:blinkingText 1s infinint;
-  font-family:futura;
-  font-style:italic;
-  margin:0 auto;
-  text-align:center;
-  color:blue;
-  font-size:45px;
-  background-color:red;
+  background-color:black;
+  animation-name:linkh;
+  animation-duration: 4s;
 }
-@keyframes blinkingText{
-  from {
-    opacity: 1;
-    color: black;
-  }
-  to {
-    opacity:0;
+@keyframes linkh {
+  0%{
     color:red;
   }
-  0% {
-    opacity:0;
+  25%{
+    color:black;
   }
-  50% {
-    opacity: .5;
+  50%{
+    color:red;
   }
-  100% {
-    opacity: 1;
-  }
+  100%{color:black;}
 }
