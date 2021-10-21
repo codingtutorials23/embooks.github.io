@@ -35,3 +35,6 @@ body {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
 }
+@media screen and (max-width: 450) {
+  body{background-color:black;}
+}
