@@ -1,5 +1,6 @@
 body {
   font-family: "Lato", sans-serif;
+  background-color:black;
 }
 .nav {
   height: 100%;
@@ -9,6 +10,7 @@ body {
   top: 0;
   left: 0;
   background-color:black;
+  border:solid white;
   overflow-x: hidden;
   padding-top: 20px;
   margin-bottom: 160px;
