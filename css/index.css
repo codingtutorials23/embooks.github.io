@@ -34,4 +34,5 @@ body {
 @media screen and (max-height: 450px) {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
+  a{font-size: 100px;}
 }
