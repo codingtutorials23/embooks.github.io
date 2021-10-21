@@ -36,17 +36,3 @@ body {
   .nav {padding-top: 15px;}
   .nav a {font-size: 18px;}
 }
- .blink{
-  width: 100px;
-  height: 100px;
-  color:white;
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-@keyframes example {
-  0%   {color: red;}
-  25%  {color: black;}
-  50%  {color: red;}
-  100% {color: black;}
-}
