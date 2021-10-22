@@ -39,5 +39,5 @@ body {
   a{font-size: 100px;}
 }
 .nav a:hover{
-  color:#83a303
+  color:red;
 }
