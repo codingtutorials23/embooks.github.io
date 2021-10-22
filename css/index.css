@@ -41,3 +41,12 @@ body {
 .nav a:hover{
   color:red;
 }
+.main a{
+  color:red;
+  animation-name:horror;
+  animation-duration:4s;
+}
+@keyframes horror{
+  from{color:red;}
+  to{color:black;}
+}
