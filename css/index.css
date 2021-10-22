@@ -44,7 +44,7 @@ body {
 .main a{
   color:red;
   animation-name:horror;
-  animation-duration:4s;
+  animation-duration:1s;
 }
 @keyframes horror{
   from{color:red;}
