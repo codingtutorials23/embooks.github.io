@@ -41,7 +41,7 @@ body {
 .nav a:hover{
   color:red;
 }
-.main a{
+body{
   color:red;
   animation-name:horror;
   animation-duration:4s;
